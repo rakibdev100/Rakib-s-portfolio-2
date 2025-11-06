@@ -28,7 +28,7 @@ const Hero = () => {
     }, [index, isDeleting]);
 
     return (
-        <section className=" bg--800">
+        <section className=" bg--800 mt-8">
            <div className=" flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 mt-3 md:flex-row md:py-16">
              <div className="w-full text-center md:w-1/2 md:text-left mt-8 md:mt-0 flex flex-col justify-center min-h-[420px]">
                 <h2 className="text-4xl font-extrabold leading-tight bg-gradient-to-r from-red-900 via-fuchsia-400 to-orange-300 bg-clip-text text-transparent">
@@ -57,15 +57,19 @@ const Hero = () => {
                     >
                         About Me
                     </Link>
+                     <button className="mt-3 sm:mt-0 px-6 py-3 text-lg ml-8 font-semibold bg-purple-200 text-gray-800 rounded-md border border-purple-300 shadow-md 
+                            hover:bg-purple-600 hover:text-white hover:shadow-lg hover:scale-105 transition-all duration-300">
+                                Download CV
+                            </button>
                 </div>
             </div>
 
             <div className="flex items-center justify-center w-full md:w-1/2">
-                <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[420px] md:h-[420px] rounded-full overflow-hidden shadow-lg border-4 border-white bg-gray-100">
+                <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[420px] md:h-[420px] rounded-full overflow-hidden shadow-lg border-2 bg-gray-100">
                     <img
                         src={HeroImage}
                         alt="Hero"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover "
                     />
                 </div>
             </div>

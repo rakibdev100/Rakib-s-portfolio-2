@@ -40,10 +40,6 @@ const AboutMe = () => {
                             >
                                 My Github
                             </a>
-                            <button className="mt-3 sm:mt-0 px-8 py-3 text-lg font-semibold bg-white text-gray-800 rounded-md border border-purple-300 shadow-md 
-                            hover:bg-purple-600 hover:text-white hover:shadow-lg hover:scale-105 transition-all duration-300">
-                                Download CV
-                            </button>
                         </div>
                     </div>
                     <div className="flex justify-center md:justify-end flex-1 md:min-h-[400px]">

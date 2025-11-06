@@ -39,7 +39,7 @@ const Navbar = () => {
                     className={`${isOpen ? "block" : "hidden"} 
                     w-full md:flex md:items-center md:w-auto transition-all duration-300 ease-in-out`}
                 >
-                    <ul className="flex flex-col md:flex-row items-center gap-3 md:gap-6 text-lg font-semibold text-gray-700 mt-4 md:mt-0">
+                    <ul className="bg-gray-200/90 lg:bg-gray-300 rounded-2xl flex flex-col md:flex-row items-center gap-3 md:gap-6 text-lg font-semibold text-gray-700 mt-4 md:mt-0">
                         <li>
                             <Link
                                 to="/"
