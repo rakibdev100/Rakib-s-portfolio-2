@@ -5,14 +5,14 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-20 bg-neutral-100 shadow-md py-2 px-4 lg:px-16">
+        <nav className="fixed top-0 left-0 right-0 h-12 z-20 bg-gray-300 shadow-md py-2 px-4 lg:px-16">
             <div className="flex flex-wrap items-center justify-between mx-auto max-w-screen-xl">
 
                 <Link
                     to="/"
                     className="text-2xl font-bold text-purple-900 hover:text-red-800 transition-colors duration-200"
                 >
-                    Portfolio
+                    Rakibul Hasan
                 </Link>
 
 

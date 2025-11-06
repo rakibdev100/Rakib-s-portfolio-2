@@ -1,4 +1,4 @@
-import skillImage from "../assets/images/rakibpro1.jpg";
+import skillImage from "../assets/images/rakib1.jpg";
 const SkillPage = () => {
     return (
         <section id="skills" className="flex items-center justify-center py-12  bg-blue-50">

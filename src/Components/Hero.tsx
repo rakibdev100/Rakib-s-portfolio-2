@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
-import HeroImage from "../assets/images/rakibpro1.jpg";
+import HeroImage from "../assets/images/rakib1.jpg";
 
 const Hero = () => {
     const [text, setText] = useState("");
@@ -28,8 +28,9 @@ const Hero = () => {
     }, [index, isDeleting]);
 
     return (
-        <section className="flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 mt-3 md:flex-row md:py-16">
-            <div className="w-full text-center md:w-1/2 md:text-left mt-8 md:mt-0 flex flex-col justify-center min-h-[420px]">
+        <section className=" bg--800">
+           <div className=" flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 mt-3 md:flex-row md:py-16">
+             <div className="w-full text-center md:w-1/2 md:text-left mt-8 md:mt-0 flex flex-col justify-center min-h-[420px]">
                 <h2 className="text-4xl font-extrabold leading-tight bg-gradient-to-r from-red-900 via-fuchsia-400 to-orange-300 bg-clip-text text-transparent">
                     Hello I'm{" "}
                     <h3 className="text-4xl font-extrabold bg-gradient-to-r from-purple-900 via-fuchsia-600 to-red-600 bg-clip-text text-transparent">
@@ -59,7 +60,6 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* Image Section */}
             <div className="flex items-center justify-center w-full md:w-1/2">
                 <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[420px] md:h-[420px] rounded-full overflow-hidden shadow-lg border-4 border-white bg-gray-100">
                     <img
@@ -69,6 +69,7 @@ const Hero = () => {
                     />
                 </div>
             </div>
+           </div>
         </section>
     );
 };
